@@ -1,51 +1,46 @@
-# GezheStudio Releases
+# Downloads
 
-这是 GezheStudio 桌面应用的官方发布仓库。
+Welcome to the download page for GezheStudio desktop application.
 
-## 下载安装
+## Latest Release
 
-请访问 [Releases 页面](https://github.com/siko/miji-releases/releases) 下载最新版本。
+Visit the [Releases page](https://github.com/siko/miji-releases/releases) to download the latest version.
 
-## 支持的平台
+## Supported Platforms
 
-- **macOS** (Apple Silicon 和 Intel)
-- **Linux** (Ubuntu, Debian 等)
+- **macOS** (Apple Silicon and Intel)
+- **Linux** (Ubuntu, Debian, and other distributions)
 - **Windows** 10/11
 
-## 安装说明
+## Installation
 
 ### macOS
-
-下载 `.dmg` 文件，拖拽到应用程序文件夹。
+Download the `.dmg` file and drag the application to your Applications folder.
 
 ### Linux
 
-选择以下格式之一：
-- **.deb**: 适用于 Debian/Ubuntu 及其衍生发行版
-  ```bash
-  sudo dpkg -i GezheStudio_*.deb
-  ```
-- **.AppImage**: 通用格式，无需安装
-  ```bash
-  chmod +x GezheStudio_*.AppImage
-  ./GezheStudio_*.AppImage
-  ```
+Choose your preferred format:
+
+**.deb** (Debian/Ubuntu):
+```bash
+sudo dpkg -i GezheStudio_*.deb
+```
+
+**.AppImage** (Universal):
+```bash
+chmod +x GezheStudio_*.AppImage
+./GezheStudio_*.AppImage
+```
 
 ### Windows
+Download the `.exe` or `.msi` installer and run it.
 
-下载 `.exe` 或 `.msi` 安装程序并运行。
+## System Requirements
 
-## 关于
+- **RAM**: 4GB minimum, 8GB recommended
+- **Disk Space**: 500MB for application
+- **Network**: Internet connection required
 
-GezheStudio 是一个 AI 音乐生成桌面应用，基于 Tauri 构建。
+## Support
 
-**源代码仓库**: [siko/miji](https://github.com/siko/miji) (私有)
-
-## 许可证
-
-[待添加]
-
-## 联系方式
-
-如有问题，请通过以下方式联系：
-- GitHub Issues: [siko/miji/issues](https://github.com/siko/miji/issues)
+For issues and feature requests, please visit the [Issues page](https://github.com/siko/miji-releases/issues).
